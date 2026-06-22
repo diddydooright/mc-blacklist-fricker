@@ -10,11 +10,9 @@ import java.util.function.Predicate;
 @Mixin(MojangBlockListSupplier.class)
 public abstract class RemoveFilterMixin {
     /**
-     * @author someone else probably
+     * @author someone else
      * @reason makes it not block any servers
      */
     @Overwrite(remap = false)
-    public Predicate<String> createBlockList() {
-        return input -> false;
-    }
+    public Predicate<String> createBlockList() {return input -> false;} // one line breaks tos?
 }

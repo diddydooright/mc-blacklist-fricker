@@ -12,6 +12,6 @@ public class BlacklistFricker implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("BlackList Fricked!");
+		LOGGER.info("Server BlackList Fricked!");
 	}
 }
