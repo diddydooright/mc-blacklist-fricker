@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "sigma.ligma.blacklistfricker.mixin",
-  "compatibilityLevel": "JAVA_25",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
     "RemoveFilterMixin"
   ],
